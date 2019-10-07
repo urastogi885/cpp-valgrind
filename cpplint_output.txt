@@ -1,0 +1,16 @@
+umang@umang-XPS-15-7590:~/Documents/808x/assignments/week6/cpp-valgrind$ cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" )
+Done processing ./test/main.cpp
+Done processing ./test/test.cpp
+./app/AnalogSensor.cpp:18:  Tab found; better to use spaces  [whitespace/tab] [1]
+./app/AnalogSensor.cpp:25:  Tab found; better to use spaces  [whitespace/tab] [1]
+Done processing ./app/AnalogSensor.cpp
+Done processing ./app/main.cpp
+./include/AnalogSensor.hpp:18:  Tab found; better to use spaces  [whitespace/tab] [1]
+./include/AnalogSensor.hpp:24:  Tab found; better to use spaces  [whitespace/tab] [1]
+./include/AnalogSensor.hpp:31:  Tab found; better to use spaces  [whitespace/tab] [1]
+./include/AnalogSensor.hpp:38:  Tab found; better to use spaces  [whitespace/tab] [1]
+./include/AnalogSensor.hpp:40:  Tab found; better to use spaces  [whitespace/tab] [1]
+./include/AnalogSensor.hpp:41:  Tab found; better to use spaces  [whitespace/tab] [1]
+./include/AnalogSensor.hpp:42:  Tab found; better to use spaces  [whitespace/tab] [1]
+Done processing ./include/AnalogSensor.hpp
+Total errors found: 9
