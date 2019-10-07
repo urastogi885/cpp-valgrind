@@ -12,7 +12,7 @@ Simple C++ project to work with:
  
 - Go to the folder where you want to clone this repository.
 - Right-click on empty space and select *Open in Terminal*.
-- Run the commands stated below.
+- Run the commands stated below:
 ```shell script
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
 cd <path to repository>
@@ -58,7 +58,7 @@ To check leaks in your project, run:
 valgrind --leak-check=full ./app/shell-app
 ```
 
-To check the function and memory profiler output:
+To check the function and memory profiler output, run:
 ```shell script
 valgrind --tool=callgrind ./app/shell-app
 ```
