@@ -8,6 +8,8 @@ Simple C++ project to work with:
 - googletest
 - valgrind
 
+Project is part of Week-6 Assignment for ENPM808X.
+ 
 ## Standard install via command-line
  
 - Go to the folder where you want to clone this repository.
