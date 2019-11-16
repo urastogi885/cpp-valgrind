@@ -25,7 +25,7 @@ make
 
 ## Location of output files
 
-- All the output files are located at the base level of the project directory. No need to check any sub-directory for them.
+- All the output files are located in the *results* sub-directory.
 - The output files have been listed below:
     - Valgrind error files: *valgrind_output_before_fixes.txt   valgrind_output_after_fixes.txt*
     - KCacheGrind file: *KCacheGrind_profiler_output.png*
@@ -53,7 +53,7 @@ Go to the project directory, open the build sub-directory in *Terminal*, and run
 valgrind ./app/shell-app
 ```
 
-To check leaks in your project, run:
+To check leaks in the project, run:
 ```shell script
 valgrind --leak-check=full ./app/shell-app
 ```
